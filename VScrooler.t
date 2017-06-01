@@ -178,11 +178,12 @@ loop
 	obstacL4 := 610
 	obstacR4 := 620
     end if
+    exit when count = 0
     % Colision ===============================================================================================colision
 
 
     % timer ^&^%&%&%&&%^%$&&$^&&$&$^&^&$&$&^&^&$^&$^#&#&$^&$^&&^&$%^&
-    exit when count = 0
+    
     loopCount += 1
     if loopCount = 1000 then
 	delayTimer := 4
